@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainAdoption">
+
+    <ImageView
+        android:id="@+id/filter1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/filter" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/filter1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/search_pet_for_adopt"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:background="@drawable/button1"
+        android:id="@+id/search1"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/wishlist"
+        android:layout_toRightOf="@id/search1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="28dp"
+        android:id="@+id/wishlist1"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/cart"
+        android:id="@+id/cart1"/>/>
+
+    <ImageView
+        android:id="@+id/cats1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="93dp"
+        android:src="@drawable/cats"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dogs"
+        android:layout_toRightOf="@id/cats1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="93dp"
+        android:id="@+id/dogs1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bunnies"
+        android:layout_toRightOf="@id/dogs1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="93dp"
+        android:id="@+id/bunnies1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/birds"
+        android:layout_toRightOf="@id/bunnies1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="93dp"
+        android:id="@+id/birds1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/others"
+        android:layout_toRightOf="@id/birds1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="93dp"
+        android:id="@+id/others1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="520dp"
+        android:src="@drawable/hewanlabel"
+        android:layout_below="@id/cats1"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeNews">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAWSOME"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/brown1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/filter1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="86dp"
+        android:src="@drawable/filter" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/filter1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="75dp"
+        android:text="@string/search_pet_for_adopt"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:background="@drawable/button1"
+        android:id="@+id/search1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/homeevent"
+        android:layout_marginTop="130dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/navigation"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="570dp"/>
+
+</RelativeLayout>
